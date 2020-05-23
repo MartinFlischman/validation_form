@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div id="form-group">
+
+        <div id="errorMsg"></div>
+
+        <div id="successMsg">You did it. Congradulations!</div>
+
+        <div class="form-element">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="eg. yourname@email.com">
+        </div>
+
+        <div class="form-element">
+            <label for="phone">Telephone</label>
+            <input type="text" name="phone" id="phone" placeholder="eg. +1234567890">
+        </div>
+
+        <div class="form-element">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <div class="form-element">
+            <label for="passwordConfirm">Confirm Password</label>
+            <input type="password" name="passwordConfirm" id="passwordConfirm">
+        </div>
+
+        <div class="form-element">
+            <button type="submit" id="submitBtn" value="Sign Up">Sign Up</button>
+        </div>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
