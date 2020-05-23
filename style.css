@@ -32,6 +32,10 @@ label {
     cursor: pointer;
     width: 100px;
     padding: 5px;
+    background-color: #174583;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
 }
 
 #errorMsg {
